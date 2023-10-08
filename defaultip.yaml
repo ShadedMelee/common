@@ -16,7 +16,7 @@ spec:
   identityProviders:
   - htpasswd:
       fileData:
-        name: htpass-secret
+        name: login-didak
     mappingMethod: claim
     name: developer
     type: HTPasswd
