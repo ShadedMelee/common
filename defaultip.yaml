@@ -3,6 +3,10 @@ kind: OAuth
 metadata:
   name: cluster
 spec:
+  identityProviders:
+  - name: my_htpasswd_provider 
+    mappingMethod: claim 
+    type: HTPasswd
   templates:
     login:
       name: login-didak
