@@ -7,6 +7,9 @@ spec:
   - name: my_htpasswd_provider 
     mappingMethod: claim 
     type: HTPasswd
+    htpasswd:
+      fileData:
+        name: htpass-secret
   templates:
     login:
       name: login-didak
