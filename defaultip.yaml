@@ -13,13 +13,6 @@ metadata:
     name: version
     uid: e2b49070-7491-40fc-a6d1-756e7fcfc6ad
 spec:
-  identityProviders:
-  - htpasswd:
-      fileData:
-        name: login-template
-    mappingMethod: claim
-    name: developer
-    type: HTPasswd
   templates:
     login:
       name: login-didak
